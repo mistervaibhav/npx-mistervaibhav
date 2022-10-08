@@ -1,6 +1,6 @@
 {
   "name": "mistervaibhav",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "A personal card for Vaibhav Singh (@mistervaibhav)",
   "main": "./build/index.js",
   "type": "module",
@@ -17,6 +17,12 @@
     "type": "git",
     "url": "git+https://github.com/mistervaibhav/npx-mistervaibhav.git"
   },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
+  "files": [
+    "./build/index.js"
+  ],
   "keywords": [
     "card",
     "npm",
