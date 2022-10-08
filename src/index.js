@@ -1,9 +1,6 @@
 import boxen from "boxen";
 import chalk from "chalk";
 import clear from "clear";
-// const boxen = require("boxen");
-// const chalk = require("chalk");
-// const clear = require("clear");
 // const inquirer = require("inquirer");
 // const open = require("open");
 // const fs = require('fs');
@@ -14,8 +11,6 @@ import clear from "clear";
 clear();
 
 // const prompt = inquirer.createPromptModule();
-
-type ObjectType = Record<string, string | any>;
 
 // const questions: Array<ObjectType> = [
 //   {
@@ -66,7 +61,7 @@ type ObjectType = Record<string, string | any>;
 //   },
 // ];
 
-const data: ObjectType = {
+const data = {
   name: chalk.bold.green("                   Vaibhav Singh"),
   handle: chalk.white("@mistervaibhav"),
   work: `${chalk.white("Software Engineer at")} ${chalk

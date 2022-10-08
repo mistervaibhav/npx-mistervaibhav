@@ -2,10 +2,10 @@
   "name": "mistervaibhav",
   "version": "1.0.0",
   "description": "A personal card for Vaibhav Singh (@mistervaibhav)",
-  "main": "./build/index.js",
+  "main": "./src/index.js",
   "type": "module",
   "bin": {
-    "mistervaibhav": "./build/index.js"
+    "mistervaibhav": "./src/index.js"
   },
   "scripts": {
     "start:dev": "nodemon",
@@ -38,16 +38,9 @@
   },
   "homepage": "https://github.com/mistervaibhav/npx-mistervaibhav#readme",
   "devDependencies": {
-    "@types/clear": "^0.1.2",
-    "@types/inquirer": "^9.0.2",
-    "@types/node": "^18.8.3",
-    "@typescript-eslint/eslint-plugin": "^5.39.0",
-    "@typescript-eslint/parser": "^5.39.0",
     "eslint": "^8.25.0",
     "nodemon": "^2.0.20",
-    "rimraf": "^3.0.2",
-    "ts-node": "^10.9.1",
-    "typescript": "^4.8.4"
+    "rimraf": "^3.0.2"
   },
   "dependencies": {
     "boxen": "^7.0.0",
