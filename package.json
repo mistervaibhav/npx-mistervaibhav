@@ -1,6 +1,6 @@
 {
   "name": "mistervaibhav",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A personal card for Vaibhav Singh (@mistervaibhav)",
   "main": "./build/index.js",
   "type": "module",
